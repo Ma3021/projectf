@@ -1,0 +1,772 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.one{
+    height: 105vh;
+    background-color: rgba(43,43,43,255);
+    background-attachment: scroll;
+    position: relative;
+    
+}
+.nav{
+  width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    gap: 17%;
+    align-items: center;
+    position: sticky;
+     top: 0;
+     z-index: 1;
+}
+.nop{ 
+    font-family: "Cabin", sans-serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    display: none;
+}
+
+#ico:hover .nop{
+    display: block;
+
+
+}
+
+
+
+
+
+.logo{
+    font-size: x-large ;
+    font-family: "Cabin", sans-serif ;
+    font-family: "Kanit", sans-serif ;
+    font-weight: 600 !;
+    font-style: normal ;
+}
+a {
+    text-decoration: none ;
+    padding: 10px ;
+    margin: 5px ;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500 !;
+    font-style: normal !;
+    color: black ;
+    font-family: "Cabin", sans-serif ;
+    font-optical-sizing: auto ;
+    font-weight: 900 ;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+a:hover{
+    opacity: 50%;
+}
+.button1{
+    font-size: larger;
+    border-radius:40px;
+    padding: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgb(119, 33, 172);
+}
+.button1:hover{
+    opacity: 50%;
+}
+
+.img1{
+    position: absolute;
+    left: 50%;
+    
+    
+}
+
+@keyframes im {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 60%;
+    }   
+}
+.img3{
+     position: absolute;
+    left: 60%;
+    top: 19%;  
+    padding-bottom: 40%;
+    animation-name: im;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+
+ .text{
+     position: absolute;
+    left: 20%;
+    top: 32% 
+} 
+
+.top{
+  display: flex;
+}
+
+
+#text1,#text2,.text3{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 400%;
+    color: white;
+
+}
+.text3{
+    color: rgb(119, 33, 172);
+}
+.text4{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+
+}
+.text5,.t1{
+    font-size: small;
+    opacity: 60%;
+}
+.text11{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 50px;
+}
+.text51{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 300%;
+}
+.text10{
+    font-size: 300%;
+}
+.text12{
+    font-weight: 200;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: black;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; 
+  }
+  
+  .active, .dot:hover {
+    background-color:rgb(119, 33, 172);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+  .feat1{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+  #image{
+    padding: 30px;
+    padding-left: 15%;
+  }
+
+  .t4{
+    padding-left: 10%;
+    font-weight: 200;
+  }
+  .icon1{
+    padding-right: 6.6%;
+  }
+  .icon2{
+    padding-right: 7%;
+  }
+  .icon3{
+    padding-right: 5.6%;
+  }
+  .cont{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+    text-align: left;
+
+  }
+  .t2{
+    font-size: 350%;
+    padding-bottom: 3%;
+  }
+  .t3{
+    padding-bottom: 15%;
+  }
+  .t3:hover{
+    padding-left: 5%;
+  }
+  
+  .cont2{
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 15%;
+
+  }
+  #image2{
+    margin-left: 15%;
+  }
+  .t6{
+    padding-bottom: 5%;
+  }
+  .t7{
+    font-weight: 200;
+  }
+  .bar1,.bar2,.bar3{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    background-color: rgb(170, 165, 174);
+    border: 1px solid black;
+    border-radius: 5px;
+    
+  }
+  .green{
+    background-color: blueviolet;
+  }
+  .num{
+    text-align: right;
+  }
+  .sec5{
+    margin-top: 22%;
+    margin-left: 10% ;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .t11{
+    opacity: 60%;
+    padding-bottom: 10px;
+  }
+  .t12{
+    font-size: 300%;
+    color:  rgb(119, 33, 172) ;
+
+  }
+  .t13{
+    font-size: 300%;
+    padding-bottom: 10px;
+  }
+  .t14{
+    font-weight: 200;
+  }
+  .iframe{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .sec6{
+     margin-top: 20%;
+     height: 200vh;
+     background-color: rgb(57, 53, 53);
+  }
+
+  .t21,.t22,.t23{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-align: center;
+  }
+
+  .t21{
+    opacity: 60%;
+    padding-top: 10%;
+  }
+
+  .t22,.t23{
+    font-size: 300%;
+  }
+  .t23{
+    padding-bottom: 10%;
+  }
+
+  .boxcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    
+  }
+
+  .box1,.box2,.box3{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .t31,.t32,.t33{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+  }
+
+  .t31{
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-weight: 200                 ;
+  }
+
+  .t32>a{
+    font-size: 200%;
+    text-decoration: none;
+  }
+
+  .t33{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .button2{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 5%;
+   
+  }
+
+  .button21{
+    font-size: larger;
+    border-radius:40px;
+    padding: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:  rgb(57, 53, 53);
+    border: 2px solid white;
+
+  }
+  .button21:hover{
+    opacity: 60%;
+  }
+  
+  .button21>a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .Sec7{
+
+    background-color: rgb(242, 241, 241);
+    height: 140vh;
+    margin-top: 10%;
+    position: relative;
+  }
+
+  .t41,.t42{
+    font-style: normal;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 300%;
+
+  }
+  .t41{
+      padding-top: 10%;
+  }
+  .t42{
+    padding-bottom: 5%;
+  }
+  .t43{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .t44{
+    margin-top: 30px;
+    margin-right: 10%;
+    color: blueviolet;
+  }
+  .t46{
+    margin-top: 30px;
+    margin-left: 10%;
+    color: blueviolet;
+  }
+  .t45{
+    height: 100px;
+    width: 100px;
+    background-image:url(girl.jpg) ;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .t48{
+    margin-top: 5%;
+    font-style: normal;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-weight: 200;
+
+  }
+  .t47{
+    font-weight: 600;
+    color:rgb(119, 33, 172) ;
+  }
+  .t49{
+    font-size: xx-large;
+  }
+  
+
+  
+  .sec8{
+    background-color:  rgb(119, 33, 172) ;
+    height: 30vh;
+    margin-bottom: 2%;
+  }
+  
+  .icon8{
+    font-size: 200%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    opacity: 60%;
+  }
+  .icon8:hover{
+    opacity: 100%;
+  }
+
+  .icon88{
+    padding-left: 38%;
+    padding-top: 5%;
+  }
+
+  .sec9{
+    background-color: rgb(57, 53, 53);
+    height: 70vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-style: normal;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+
+  }
+  .t51{
+    font-size: 250%;
+    padding-bottom: 4%;
+  }
+  .foot1{
+    padding-left: 5%;
+    padding-bottom: 3%;
+  }
+
+  .t52,.t53,.t54{
+
+    font-weight: 200;
+    opacity: 60%;
+  }
+
+  .t53{
+    padding-bottom: 5%;
+  }
+
+  .icon99{
+    padding-bottom: 2%;
+    padding-left: 0%;
+  }
+  .icon92:hover{
+    opacity: 60%;
+  }
+  .t55{
+    padding-left: 2%;
+  }
+  .icon9{
+    padding: 10px;
+    font-size: larger;
+  }
+  .icon9:hover{
+    opacity: 60%;
+    
+  }
+  .icon92{
+    font-size: larger;
+  }
+
+  .t61{
+    padding-bottom: 3%;
+  }
+  .t62{
+    padding-top: 2%;
+    opacity: 60%;
+    font-weight: 200;
+  }
+  .foot4{
+    text-align: center;
+    font-weight: 200;
+    opacity: 100%;
+    background-color:rgb(57, 53, 53) ;
+    font-style: normal;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    color: white;
+  }
+
+  .t71{
+    opacity: 60%;
+  }
+
+
+  .maincont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  } 
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 70VH;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color:  rgb(119, 33, 172) ;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 80%;
+  }
+  
+  .text01 {
+    color: rgb(21, 6, 6);
+    font-size: 32px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 39%;
+    left: 38%;
+  }
+
+  .animate__flipInY:hover{
+    animation-name: imag;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+
+  .animate__flipInX:hover{
+    animation-name: imag1;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+  }
+  
+ @media screen and (max-width: 1200px) {
+
+    .one{
+        height: 110vh;
+    }
+    
+}
+
+@media screen and (min-width: 1300px) {
+
+  .img1{
+      height: 580px;
+  }
+  
+} 
+
+@media screen and (max-width: 600px) {
+
+  .grid1{
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .sec9{
+    display: grid;
+    grid-template-columns: auto;
+    height: 130vh;
+  }
+  .foot2,.foot3{
+    padding-left: 5%;
+  }
+
+  .one{
+    height: 200vh;
+  }
+
+  .img3{
+    position: absolute;
+    top: 58%;
+    left: 20%;
+  }
+  .img1{
+     display: none; 
+  
+  }
+  .maincont{
+    display: grid;
+    grid-template-columns:  auto;
+  }
+
+  .container{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .text01{
+    position: absolute;
+    left: 42%;
+  }
+  
+  .icon88{
+    translate: -80px;
+  }
+ 
+  
+
+  
+}
+@media screen and (max-width: 700px) {
+
+  
+  .feat1{
+    display: grid;
+    grid-template-columns: auto;
+  }
+   .boxcontainer{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden ;
+   }
+   .sec6{
+    height: 310vh;
+   }
+  
+  
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+  
+  
+  
+  
+
+ 
+  
